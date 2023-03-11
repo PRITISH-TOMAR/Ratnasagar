@@ -21,3 +21,34 @@
 
    }
   }
+
+
+  @media screen and (max-width:440px){
+
+    .navbar2 .hb{
+        
+        font-size: 0.6em;
+        height: 25px;
+        padding-top: 5px;
+         
+    }
+
+    #mid1,.mid1{
+        display: block;
+        
+        width: auto;
+
+        height: 200px;
+    }
+    #mid{
+        display: flex;
+        justify-content: center;
+    }
+   .mid2{
+    width: 80%;
+    font-size: 0.9em;
+
+   }
+  }
+
+  
