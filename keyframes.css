@@ -4,4 +4,20 @@
         height: 30px;
         
     }
+
+    #mid1,.mid1{
+        display: block;
+        
+        width: auto;
+
+        height: 350px;
+    }
+    #mid{
+        display: flex;
+        justify-content: center;
+    }
+   .mid2{
+    width: 80%;
+
+   }
   }
