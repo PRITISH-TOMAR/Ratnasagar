@@ -4,7 +4,7 @@
 }
 
 body, .head{
-    width: 100vw;
+    max-width: 100vw;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
@@ -20,12 +20,12 @@ justify-content: center;
 }
 
 
-#up, .mid{
+#up, #mid{
     display: flex;
     flex-wrap: wrap;
      flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
      
     
     }
@@ -58,8 +58,18 @@ justify-content: center;
         height: 2.5em;
     }
     
-    .mid .carousel-item{
-width: 800px;
-height: 370px;
+    #mid{
+        padding: 0px 5px 10px 5px ;
+    }
+    #mid1,.mid1{
+        display: block;
+        
+        width: 800px;
+        height: 350px;
+    }
+    .mid2{
+        display: block;
+        width: 450px;
+        margin:20px;
 
     }
